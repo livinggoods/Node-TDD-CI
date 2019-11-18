@@ -1,0 +1,23 @@
+language: node_js
+
+node_js:
+  - "6"
+  
+services:
+- docker
+
+env:
+  - CI=true
+
+install:
+  - npm install --global mocha
+  - npm install -g istanbul
+  - npm install
+
+script:
+  - ./build.sh
+  - npm test
+  - npm run-script coveralls
+
+after_success:
+  - ./after.sh
