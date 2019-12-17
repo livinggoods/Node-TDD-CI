@@ -10,7 +10,7 @@ Suminator.prototype.getSumPlusOne = function (a, b) {
 };
 
 Suminator.prototype.getSumPlusTwo = function (a, b) {
-  
+  return a + b + 2;
 };
 
 Suminator.prototype.getSumPlusThree = function (a, b) {
