@@ -5,6 +5,7 @@ Suminator.prototype.getSum = function (a, b) {
 };
 
 Suminator.prototype.getSumPlusOne = function (a, b) {
+  return (a + b) + 1;
  
 };
 
