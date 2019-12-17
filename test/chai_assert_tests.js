@@ -28,14 +28,14 @@ describe('Mocha buildin assert', () => {
         assert.equal(suminator.getSum(2, -3), -1);
       });
     });
-    // describe('getSumPlusOne', () => {
-    //   it('2 + 2 + 1 should return 5', () => {
-    //     assert.equal(suminator.getSumPlusOne(2, 2), 5);
-    //   });
-    //   it('2 + (-3) + 1 should return 0', () => {
-    //     assert.equal(suminator.getSumPlusOne(2, -3), 0);
-    //   });
-    // });
+    describe('getSumPlusOne', () => {
+      it('2 + 2 + 1 should return 5', () => {
+        assert.equal(suminator.getSumPlusOne(2, 2), 5);
+      });
+      it('2 + (-3) + 1 should return 0', () => {
+        assert.equal(suminator.getSumPlusOne(2, -3), 0);
+      });
+    });
 
     // describe('getSumPlusTwo', () => {
     //   it('2 + 2 + 2 should return 6', () => {
