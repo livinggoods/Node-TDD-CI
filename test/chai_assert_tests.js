@@ -37,14 +37,14 @@ describe('Mocha buildin assert', () => {
     //   });
     // });
 
-    // describe('getSumPlusTwo', () => {
-    //   it('2 + 2 + 2 should return 6', () => {
-    //     assert.equal(suminator.getSumPlusTwo(2, 2), 6);
-    //   });
-    //   it('2 + (-4) + 2 should return 0', () => {
-    //     assert.equal(suminator.getSumPlusTwo(2, -4), 0);
-    //   });
-    // });
+     describe('getSumPlusTwo', () => {
+       it('2 + 2 + 2 should return 6', () => {
+         assert.equal(suminator.getSumPlusTwo(2, 2), 6);
+       });
+       it('2 + (-4) + 2 should return 0', () => {
+        assert.equal(suminator.getSumPlusTwo(2, -4), 0);
+       });
+     });
 
     // describe('getSumPlusThree', () => {
     //   it('2 + 2 + 3 should return 7', () => {
