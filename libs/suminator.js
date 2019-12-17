@@ -12,8 +12,8 @@ Suminator.prototype.getSumPlusTwo = function (a, b) {
   
 };
 
-Suminator.prototype.getSumPlusThree = function (a, b) {
-  
+Suminator.prototype.getSumPlusThree = function (a, b, c) {
+  return a+b+c;
 };
 
 Suminator.prototype.getSumPlusFour = function (a, b) {
