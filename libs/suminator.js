@@ -22,7 +22,7 @@ Suminator.prototype.getSumPlusFour = function (a, b) {
 };
 
 Suminator.prototype.getSumPlusFive = function (a, b) {
-   
+  return (a + b + 5);
 };
 
 Suminator.prototype.getSumTimesTwo = function (a, b) {

@@ -64,15 +64,14 @@ describe('Mocha buildin assert', () => {
     //   });
     // });
 
-    // describe('getSumPlusFive', () => {
-    //   it('2 + 2 + 5 should return 9', () => {
-    //     assert.equal(suminator.getSumPlusTwo(2, 2), 7);
-    //   });
-    //   it('2 + (-7) + 5 should return 0', () => {
-    //     assert.equal(suminator.getSumPlusTwo(2, -7), 0);
-    //   });
-    // });
-
+    describe('getSumPlusFive', () => {
+      it('2 + 2 + 5 should return 9', () => {
+        assert.equal(suminator.getSumPlusFive(2, 2), 9);
+      });
+      it('2 + (-7) + 5 should return 0', () => {
+        assert.equal(suminator.getSumPlusFive(2, -7), 0);
+      });
+    });
 
     describe('getSumTimesTwo', () => {
       it('2 + 2 times 2 should return 8', () => {
