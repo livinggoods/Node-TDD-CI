@@ -74,11 +74,11 @@ describe('Mocha buildin assert', () => {
     // });
 
 
-    // describe('getSumTimesTwo', () => {
-    //   it('2 + 2 times 2 should return 8', () => {
-    //     assert.equal(suminator.getSumTimesTwo(2, 2), 8);
-    //   });
-    // });
+    describe('getSumTimesTwo', () => {
+      it('2 + 2 times 2 should return 8', () => {
+        assert.equal(suminator.getSumTimesTwo(2, 2), 8);
+      });
+    });
 
     // describe('getSumTimesThree', () => {
     //   it('2 + 2 times 2 should return 12', () => {
