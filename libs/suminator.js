@@ -26,6 +26,8 @@ Suminator.prototype.getSumPlusFive = function (a, b) {
 };
 
 Suminator.prototype.getSumTimesTwo = function (a, b) {
+
+  return (a+b)*2;
   
 };
 
